@@ -97,22 +97,45 @@ get_header(); ?>
 </div>
 
  <div class="featureMapContainer rowContainer">
+  <div class="container text-center">
+    <h1>Our Impact Is Across the Globe</h1>
+    <div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ex fugit assumenda iure, dolor alias natus. <a href="#">Lorem ipsum doler</a> </div>
+  </div>
+</div>
+
+<div class="linksContainer rowContainer" id="linksRow">
   <div class="container">
-    <div class="row">
-    sdfsdf
+    <div class="links row num-col-4">
+      <div class="columnPair">
+        <div class="columnContainer col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="column">
+            <img class="img-responsive" src="<?php echo get_site_url(); ?>/wp-content/themes/child_theme/usda.png" alt="USDA Logo">
+          </div>
+        </div>
+
+        <div class="columnContainer col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="column">
+            <img class="img-responsive" src="<?php echo get_site_url(); ?>/wp-content/themes/child_theme/usda.png" alt="USDA Logo">
+          </div>
+        </div>
+
+        <div class="columnContainer col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="column">
+            <img class="img-responsive" src="<?php echo get_site_url(); ?>/wp-content/themes/child_theme/usda.png" alt="USDA Logo">
+          </div>
+        </div>
+
+        <div class="columnContainer col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="column">
+            <img class="img-responsive" src="<?php echo get_site_url(); ?>/wp-content/themes/child_theme/usda.png" alt="USDA Logo">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<?php while ( have_posts() ) : the_post(); ?>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <?php get_template_part( 'content', 'page' ); ?>
-      </div>
-    </div>
-  </div>
-<?php endwhile; // end of the loop. ?>
+
 
 <div class="featureNewsContainer rowContainer">
   <div class="container">
@@ -126,10 +149,8 @@ get_header(); ?>
       <div class="col-md-6">
         <div class="newsItem">
           <h1 class="newsItem-Title">Contact Us</h1>
-            <div class="col-lg-12">
               <script type="text/javascript" src="https://purdueagcommunication.formstack.com/forms/js.php/postharvest_contact"></script><noscript><a href="https://purdueagcommunication.formstack.com/forms/postharvest_contact" title="Online Form">Online Form - Postharvest Contact</a></noscript>
-            </div>
-          </div>
+        </div>
       </div>
     </div>
   </div>
