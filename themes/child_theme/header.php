@@ -24,6 +24,8 @@
   <script src="js/html5shiv.js"></script>
   <script src="js/respond.min.js"></script>
 <![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script src="//www.purdue.edu/assets/globals/js/google_jquery_link_tracking.js" type="text/javascript"></script>
 <script type="text/javascript">// <![CDATA[
 var _gaq = _gaq || [];
@@ -31,7 +33,7 @@ var _gaq = _gaq || [];
   // If you have your own Google Analytics account,
   // change the account number in the line below to your account
   // The number here is for the main Purdue analytics account
-  _gaq.push(['_setAccount', 'UA-2785081-1']);
+  _gaq.push(['_setAccount', 'UA-31151555-1']);
   _gaq.push(['_trackPageview']);
 
   // If you're tracking to your own account above and would also like track page views
@@ -58,7 +60,8 @@ var _gaq = _gaq || [];
 					}
 					?>
 
-  <?php wp_enqueue_script("jquery"); ?>
+
+
   <?php wp_head(); ?>
 </head>
 <body style="">

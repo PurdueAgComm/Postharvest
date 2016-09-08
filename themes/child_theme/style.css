@@ -39,6 +39,7 @@ Version:        0.1.0
   height: 1000px;
   background-image: url("https://purdue.edu/purdue/images/templateElements/2015/shader65.png");
   background-repeat: repeat;
+  opacity: 0.7;
 }
 /* line 23, ../sass/_audienceContent.scss */
 .introContainer .intro {
@@ -794,7 +795,7 @@ Version:        0.1.0
   display: block;
   padding: 30px;
   font-family: 'Archivo Black',"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 0.9em;
+  font-size: 1.3em;
   line-height: 1em;
   color: #fff;
   background-color: rgba(0,0,0,.3);
@@ -819,7 +820,8 @@ Version:        0.1.0
 /* for background of menu when they are on that page */
 
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus  {
-  background-color: #fafafa;
+  background-color: #a3792c;
+  color: #fafafa !important;
 }
 
 .caption {
@@ -929,4 +931,28 @@ Version:        0.1.0
 }
 @media screen and (max-width: 320px){
   .rw-sentence { font-size: 9px; }
+}
+
+.cta {
+    color: white;
+    border: 2px solid #FFD100;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.cta:hover {
+    color: black !important;
+    border: 2px solid #FFD100;
+    padding: 10px;
+    background: #FFD100;
+    text-decoration: none;
+}
+
+
+.breadcrumb ol li {
+  color: #222;
+}
+
+.breadcrumb ol li a {
+  color: #a57000;
 }

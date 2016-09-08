@@ -10,6 +10,8 @@ require_once('wp_bootstrap_pagination.php');
 
 // FUNCTIONS
 
+
+
 function customize_wp_bootstrap_pagination($args) {
     $args['previous_string'] = '<i class="fa fa-caret-left"></i> Previous';
     $args['next_string'] = 'Next <i class="fa fa-caret-right"></i>';
