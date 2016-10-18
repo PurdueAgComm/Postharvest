@@ -87,7 +87,7 @@ get_header(); ?>
             <div class="icon">
               <i class="fa fa-globe"></i>
             </div>
-            <h3>We impact the word</h3>
+            <h3>We impact the world</h3>
             <div class="divider"></div>
             <p>Together we change systems and processes to secure food.</p>
             <br>
