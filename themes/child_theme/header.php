@@ -131,7 +131,7 @@ var _gaq = _gaq || [];
 <div class="top">
 <div class="container">
 <div class="row">
-<div class="logo col-lg-2 col-md-3 col-sm-3 col-xs-12"><a href="http://www.purdue.edu"><img alt="Purdue Agriculture" src="/postharvest/wp-content/themes/child_theme/logo.png"/></a></div>
+<div class="logo col-lg-2 col-md-3 col-sm-3 col-xs-12"><a href="https://ag.purdue.edu"><img alt="Purdue Agriculture" src="/postharvest/wp-content/themes/child_theme/logo.png"/></a></div>
 <div class="department col-lg-9 col-md-9 col-sm-9 col-xs-8"><a href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a></div>
 </div>
 </div>
